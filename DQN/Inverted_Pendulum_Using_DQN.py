@@ -25,7 +25,7 @@ epsilon_decay = 0.995  # Decay rate for exploration after each episode
 learning_rate = 0.001  # (alpha) Step size for the optimizer
 batch_size = 64  # Batch size for experience replay to train network in one iteration
 max_steps_per_episode = 200 # Max Steps agent can take before it terminates the episode
-total_episodes = 100 # Total number of episodes agent will be trained
+total_episodes = 500 # Total number of episodes agent will be trained
 target_update_freq = 10  # Frequency of updating the target network
 
 # Experience replay buffer
