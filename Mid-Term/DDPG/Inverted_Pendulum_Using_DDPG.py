@@ -211,7 +211,7 @@ actor_lr = 0.001 #0.001
 critic_optimizer = keras.optimizers.Adam(critic_lr)
 actor_optimizer = keras.optimizers.Adam(actor_lr)
 
-total_episodes = 100
+total_episodes = 25
 # Discount factor for future rewards
 gamma = 0.99
 # Used to update target networks
